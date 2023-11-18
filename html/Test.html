@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- The head section of your HTML document goes here, but it's currently empty -->
+</head>
+<body>
+    <!-- The body section of your HTML document starts here -->
+    <style>
+        table{
+            width: 95%;
+        }
+
+    </style>
+
+    <table border="1">
+       
+
+        <tbody>
+            <!-- The table body section starts here -->
+            <!-- First row -->
+            <tr>
+                <!-- A cell spanning three columns in the first row -->
+                <th colspan="3">
+                    <!-- Content for the cell -->
+                About -- 112306074
+                </th>
+            </tr>
+            <!-- Second row -->
+            <tr>
+                <!-- Column 1 -->
+                <td rowspan="3" style="text-align: center;">
+                    <img src="personal_photo.jpg" alt="personal photo"><br>personal photo
+                    
+                   
+                </td>
+                <!-- Column 2 -->
+                <td colspan="3">Name：<input name="name" type="text">
+                    <br>
+                    Gender： 
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                    <label><input type="radio" name="gender" value="other"> Ohter</label>
+              
+
+                <!-- Column 3 -->
+                
+            </tr>
+            <!-- Third row -->
+            <tr>
+                <!-- Column 2 -->
+               
+                <td>Country：
+                    <select>
+                        <option value="taipei">Taipei</option>
+                        <option value="tainan">Tainan</option>
+                        <option value="taichung">Taichung</option>
+                        <option value="taoyuan">Taoyuan</option>
+                    </select>
+                </td>
+                <td>Birthday：<input type="date" name="birthday"></td>
+            </tr>
+            <!--郵件-->
+            <tr>
+               
+                <td colspan="2">E-mail：<input type="email" name="email"></td>
+               
+                
+            </tr>
+
+            <tr><!--興趣欄-->
+                <td style="height: 50px";>Hobby</td>
+                <td colspan="2">
+                    <input type="checkbox" name="Swimming"> Swimming
+                    <input type="checkbox" name="Volleyball"> Volleyball
+                    <input type="checkbox" name="Movie"> Movie
+                    <input type="checkbox" name="Game"> Game
+                    <input type="checkbox" name="Sleep"> Sleep
+                </td>
+            </tr>
+
+
+            <tr><!--Skill-->
+                <td style="height: 50px";>Skill</td>
+                <td colspan="2">
+                <input type="checkbox" name="Java"> Java
+                <input type="checkbox" name="HTML"> HTML
+                <input type="checkbox" name="Python"> Python
+                <input type="checkbox" name="Microsoft Office"> Microsoft Office
+                <input type="checkbox" name="Premiere"> Premiere
+                </td>
+            </tr>
+
+
+            <tr><!--Say Something-->
+                <td style="height: 50px";>Say Something</td>
+                <td colspan="2">
+                <input type="text" name="Say Something" placeholder="Say Something"> 
+                </td>
+            </tr>
+
+
+            <tr>
+                <td style="height: 50px" colspan="3"><input type="submit" value="提交">
+                                <input type="reset" value="重設">
+
+
+            <!-- End of the table body rows -->
+        </tbody>
+        <!-- End of the table body section -->
+
+        <!-- The rest of the table footer would go here if you intend to include it -->
+
+    </table>
+    <!-- End of the table -->
+
+</body>
+</html>
